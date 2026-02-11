@@ -10,7 +10,7 @@ export default function App() {
   const [addArticleInput, setAddArticleInput] = useState("");
 
   // modifica
-  const [editArticleIdnex, setEditArticleIndex] = useState(null);
+  const [editArticleIndex, setEditArticleIndex] = useState(null);
   const [editArticleInput, setEditArticleInput] = useState("");
   const editArticleOriginal = articles[editArticleIndex];
 
